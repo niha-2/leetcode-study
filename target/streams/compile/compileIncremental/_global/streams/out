@@ -1,6 +1,33 @@
 [debug] [zinc] IncrementalCompile -----------
 [debug] IncrementalCompile.incrementalCompile
 [debug] previous = Stamps for: 8 products, 4 sources, 1 libraries
-[debug] current source = Set(${BASE}/src/main/scala/GroupAnagrams49/Solution.scala, ${BASE}/src/main/scala/TwoSum1/Solution.scala, ${BASE}/src/main/scala/ValidAnagram242/Solution.scala, ${BASE}/src/main/scala/ValidAnagram242/Solution2.scala)
-[debug] > initialChanges = InitialChanges(Changes(added = Set(), removed = Set(), changed = Set(), unmodified = ...),Set(),Set(),API Changes: Set())
-[debug] No changes
+[debug] current source = Set(${BASE}/src/main/scala/ValidSudoku36/Solution.scala, ${BASE}/src/main/scala/TwoSum1/Solution.scala, ${BASE}/src/main/scala/ValidAnagram242/Solution2.scala, ${BASE}/src/main/scala/GroupAnagrams49/Solution.scala, ${BASE}/src/main/scala/ValidAnagram242/Solution.scala, ${BASE}/src/main/scala/TopKFrequentElements347/Solution.scala, ${BASE}/src/main/scala/ProductofArrayExceptSelf238/Solution.scala)
+[debug] > initialChanges = InitialChanges(Changes(added = Set(${BASE}/src/main/scala/ProductofArrayExceptSelf238/Solution.scala, ${BASE}/src/main/scala/TopKFrequentElements347/Solution.scala, ${BASE}/src/main/scala/ValidSudoku36/Solution.scala), removed = Set(), changed = Set(${BASE}/src/main/scala/GroupAnagrams49/Solution.scala), unmodified = ...),Set(${BASE}/target/scala-2.13/classes/GroupAnagrams49/Solution$.class),Set(),API Changes: Set())
+[debug] 
+[debug] Initial source changes:
+[debug] 	removed: Set()
+[debug] 	added: Set(${BASE}/src/main/scala/ProductofArrayExceptSelf238/Solution.scala, ${BASE}/src/main/scala/TopKFrequentElements347/Solution.scala, ${BASE}/src/main/scala/ValidSudoku36/Solution.scala)
+[debug] 	modified: Set(${BASE}/src/main/scala/GroupAnagrams49/Solution.scala)
+[debug] Invalidated products: Set(${BASE}/target/scala-2.13/classes/GroupAnagrams49/Solution$.class)
+[debug] External API changes: API Changes: Set()
+[debug] Modified binary dependencies: Set()
+[debug] Initial directly invalidated classes: Set(GroupAnagrams49.Solution)
+[debug] Sources indirectly invalidated by:
+[debug] 	product: Set(${BASE}/src/main/scala/GroupAnagrams49/Solution.scala)
+[debug] 	binary dep: Set()
+[debug] 	external source: Set()
+[debug] All initially invalidated classes: Set(GroupAnagrams49.Solution)
+[debug] All initially invalidated sources:Set(${BASE}/src/main/scala/ProductofArrayExceptSelf238/Solution.scala, ${BASE}/src/main/scala/TopKFrequentElements347/Solution.scala, ${BASE}/src/main/scala/ValidSudoku36/Solution.scala, ${BASE}/src/main/scala/GroupAnagrams49/Solution.scala)
+[debug] Initial set of included nodes: GroupAnagrams49.Solution
+[debug] Recompiling all sources: number of invalidated sources > 50.0 percent of all sources
+[debug] compilation cycle 1
+[info] compiling 7 Scala sources to C:\Users\nakamura\workspace\leetcode-study\target\scala-2.13\classes ...
+[debug] Getting org.scala-sbt:compiler-bridge_2.13:1.8.0:compile for Scala 2.13.10
+[debug] [zinc] Running cached compiler 1224eb8b for Scala compiler version 2.13.10
+[debug] [zinc] The Scala compiler is invoked with:
+[debug] 	-bootclasspath
+[debug] 	C:\Users\nakamura\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.10\scala-library-2.13.10.jar
+[debug] 	-classpath
+[debug] 	C:\Users\nakamura\workspace\leetcode-study\target\scala-2.13\classes;C:\Users\nakamura\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scalactic\scalactic_2.13\3.2.15\scalactic_2.13-3.2.15.jar;C:\Users\nakamura\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.13.10\scala-reflect-2.13.10.jar
+[debug] Scala compilation took 7.3028851 s
+[info] done compiling
