@@ -1,0 +1,9 @@
+[debug] > Exec(compile, None, None)
+[debug] Evaluating tasks: Compile / compile
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 7 Scala sources to C:\Users\nakamura\workspace\leetcode-study\target\scala-2.13\classes ...
+[warn] 3 deprecations (since 2.13.0); re-run with -deprecation for details
+[warn] one warning found
+[info] done compiling
+[success] Total time: 9 s, completed 2023/03/21 17:42:16
+[debug] > Exec(idea-shell, None, None)
